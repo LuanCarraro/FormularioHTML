@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        body,
+        html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+
+        form {
+            width: 50%;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            text-align: center;
+
+
+        }
+
+        .dados{
+            text-align: right;
+            width: 435px;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div class="container">
+        <form action="https://www.w3schools.com/action_page.php">
+            <label>Data: </label>
+            <input type="date">
+
+            <br><br>
+
+
+
+
+            <label>Usuario: </label>
+            <input type="text">
+
+            <label>Senha: </label>
+            <input type="password">
+
+
+            <br><br>
+
+            <div class="dados">
+
+            <label>Nome: </label>
+            <input type="text">
+
+            <br><br>
+
+            <label>Endereço: </label>
+            <input type="text">
+
+            <br><br>
+
+            <label>Número: </label>
+            <input type="number">
+
+            <br><br>
+
+            <label>Complemento: </label>
+            <input type="text">
+
+            
+
+            <br><br>
+
+            <label>Cidade: </label>
+            <input list="cidades">
+            <datalist id="cidades">
+                <option value="Sorocaba">
+                <option value="Votorantim">
+                <option value="São Paulo">
+                <option value="Salto de Pirapora">
+                <option value="Itapetininga">
+            </datalist>
+           
+            </div>
+
+            <br><br>
+
+            <label>Gênero: </label>
+            <input type="radio" id="Masculino" name="genero" value="Masculino" checked>
+            <label for="Masculino">Masculino</label>
+            <input type="radio" id="Feminino" name="genero" value="Feminino">
+            <label for="Feminino">Feminino</label>
+            <input type="radio" id="Prefiro não informar" name="genero" value="Prefiro não informar">
+            <label for="Prefiro não informar">Prefiro não informar</label>
+
+            <br><br>
+
+            <label>Cursos: </label>
+            <input type="checkbox" id="Curso1" name="Curso1" value="ADS">
+            <label for="curso1">ADS</label>
+            <input type="checkbox" id="Curso2" name="Curso2" value="Jogos">
+            <label for="curso2">Jogos</label>
+            <input type="checkbox" id="Curso3" name="Curso3" value="Gestão de TI">
+            <label for="curso3">Gestão de TI</label>
+            <input type="checkbox" id="Curso4" name="Curso4" value="Banco de Dados">
+            <label for="curso3">Banco de Dados</label>
+
+            <br><br>
+
+            <label>Modalidade: </label>
+            <input type="radio" id="Presencial" name="Modalidade" value="Presencial" checked>
+            <label for="Presencial">Presencial</label>
+            <input type="radio" id="Semi-Presencial" name="Modalidade" value="Semi-Presencial">
+            <label for="Semi-Presencial">Semi-Presencial</label>
+            <input type="radio" id="EAD" name="Modalidade" value="EAD">
+            <label for="EAD">EAD</label>
+
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+
+
+
+
+        </form>
+    </div>
+</body>
+
+</html>
